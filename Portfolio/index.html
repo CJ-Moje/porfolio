@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carla Joy Moje — CpE Student</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>
+      <span class="logo-name">CJM</span>
+      <span class="logo-bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#certificates" class="nav-link" data-section="certificates">Certificates</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ===================== HOME ===================== -->
+  <section id="home" class="section">
+    <div class="home-bg">
+      <div class="grid-lines"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+
+    <div class="home-content">
+      <div class="home-tag reveal-up">
+        <span class="dot"></span> Available for opportunities
+      </div>
+      <h1 class="home-title reveal-up">
+        <span class="line">Hi, I'm</span>
+        <span class="line name-line">
+          <span class="name-text">Carla Joy Moje</span>
+          <span class="name-underline"></span>
+        </span>
+      </h1>
+      <p class="home-role reveal-up">
+        <span class="role-prefix">// </span>CpE Student
+      </p>
+      <p class="home-desc reveal-up">
+        I am a Computer Engineering student eager to learn and improve my skills in programming, web development, and technology. I enjoy creating projects, exploring new ideas, and turning simple concepts into functional and creative solutions.
+      </p>
+      <div class="home-actions reveal-up">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#about" class="btn btn-ghost">About Me</a>
+      </div>
+      <div class="home-stats reveal-up">
+        <div class="stat">
+          <span class="stat-num" data-target="0">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="0">0</span>
+          <span class="stat-label">Certificates</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="1">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Language</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <div class="avatar-code">
+            <pre><code><span class="c-kw">class</span> <span class="c-cl">Engineer</span> {
+  <span class="c-fn">constructor</span>() {
+    <span class="c-kw">this</span>.name = <span class="c-str">"Carla"</span>;
+    <span class="c-kw">this</span>.role = <span class="c-str">"CpE Student"</span>;
+    <span class="c-kw">this</span>.passion = [
+      <span class="c-str">"Systems"</span>,
+      <span class="c-str">"Networks"</span>,
+      <span class="c-str">"AI/ML"</span>
+    ];
+  }
+  <span class="c-fn">solve</span>(problem) {
+    <span class="c-kw">return</span> <span class="c-str">"solution"</span>;
+  }
+}</code></pre>
+          </div>
+        </div>
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+        <div class="orbit-dot od-1"></div>
+        <div class="orbit-dot od-2"></div>
+        <div class="orbit-dot od-3"></div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section">
+    <div class="section-header reveal-up">
+      <span class="section-tag">01 — About Me</span>
+      <h2 class="section-title">Who I <em>Am</em></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-left reveal-left">
+        <div class="about-img-wrap">
+          <div class="about-img-placeholder">
+              <img src="images/profile.jpg" alt="CJM" class="profile-pic">
+              <div class="img-ring"></div>
+          </div>
+          <div class="about-badge">
+            <span class="badge-icon">⚙️</span>
+            <div>
+              <strong>CpE Student</strong>
+              <small>BS Computer Engineering</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right reveal-right">
+        <p class="about-intro">
+          Hi, I'm <strong>Carla Joy Moje</strong> — a Computer Engineering student with a growing curiosity for how technology works at every level, from circuits to code.
+        </p>
+        <p class="about-body">
+          I'm currently in my 3rd Year of the CpE program, learning the fundamentals that will shape my engineering career. Right now I'm focused on Python and building the habits of a disciplined, thoughtful developer.
+        </p>
+        <p class="about-body">
+          When I'm not studying, I enjoy exploring how things work, taking on small coding challenges, and dreaming up future projects that merge hardware and software.
+        </p>
+
+        <div class="about-info">
+          <div class="info-item">
+            <span class="info-label">// Location</span>
+            <span class="info-val">Philippines</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">// Program</span>
+            <span class="info-val">BS Computer Engineering</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">// Currently</span>
+            <span class="info-val">CpE Student</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">// Status</span>
+            <span class="info-val status-open">Open to Opportunities</span>
+          </div>
+        </div>
+
+        <a href="#" class="btn btn-primary" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills" class="section">
+    <div class="section-header reveal-up">
+      <span class="section-tag">02 — Skills</span>
+      <h2 class="section-title">My <em>Toolkit</em></h2>
+    </div>
+
+    <div class="python-hero reveal-up">
+      <div class="python-hero-left">
+        <div class="python-logo-wrap">
+          <span class="python-emoji">🐍</span>
+          <div class="python-rings">
+            <div class="py-ring py-ring-1"></div>
+            <div class="py-ring py-ring-2"></div>
+          </div>
+        </div>
+        <div class="python-meta">
+          <span class="python-label">// Primary Language</span>
+          <h3 class="python-name">Python</h3>
+          <span class="python-level">Currently Learning</span>
+        </div>
+      </div>
+      <div class="python-hero-right">
+        <div class="python-desc">
+          <p>Python is the language I've chosen to start my programming journey. I'm actively building my foundation — writing scripts, exploring syntax, and learning how to think computationally.</p>
+          <p>Every expert was once a beginner. I'm committed to growing into a confident Python developer, one line of code at a time.</p>
+        </div>
+        <div class="python-topics">
+          <span class="py-topic">Syntax & Basics</span>
+          <span class="py-topic">Data Types</span>
+          <span class="py-topic">Control Flow</span>
+          <span class="py-topic">Functions</span>
+          <span class="py-topic">Loops</span>
+          <span class="py-topic">File I/O</span>
+        </div>
+        <div class="python-bar-wrap">
+          <div class="python-bar-label">
+            <span>Learning Progress</span>
+            <span class="py-pct-label">Growing every day</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill python-fill" data-pct="35"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills-coming reveal-up">
+      <div class="coming-header">
+        <span class="coming-tag">// More skills on the horizon</span>
+        <p>As a CpE student, I'm building my technical foundation. These are areas I'm excited to explore next.</p>
+      </div>
+      <div class="coming-grid">
+        <div class="coming-card">
+          <span class="coming-icon">💻</span>
+          <span class="coming-name">C / C++</span>
+          <span class="coming-status">Up next</span>
+        </div>
+        <div class="coming-card">
+          <span class="coming-icon">🌐</span>
+          <span class="coming-name">Web Dev</span>
+          <span class="coming-status">Curious about</span>
+        </div>
+        <div class="coming-card">
+          <span class="coming-icon">🔌</span>
+          <span class="coming-name">Embedded Systems</span>
+          <span class="coming-status">Course ahead</span>
+        </div>
+        <div class="coming-card">
+          <span class="coming-icon">📡</span>
+          <span class="coming-name">Networking</span>
+          <span class="coming-status">Course ahead</span>
+        </div>
+        <div class="coming-card">
+          <span class="coming-icon">🧠</span>
+          <span class="coming-name">Machine Learning</span>
+          <span class="coming-status">Future goal</span>
+        </div>
+        <div class="coming-card">
+          <span class="coming-icon">☁️</span>
+          <span class="coming-name">Cloud / DevOps</span>
+          <span class="coming-status">Future goal</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- DUMMY CLOSING DIV to preserve HTML structure — real skills-grid removed -->
+    <div style="display:none" id="skillsGrid">
+      <div class="skill-card" data-cat="software">
+        <div class="skill-icon">🗄️</div>
+        <h3>Databases</h3>
+        <p>MySQL, PostgreSQL, MongoDB, query optimization</p>
+        <div class="skill-bar"><div class="skill-fill" data-pct="82"></div></div>
+        <span class="skill-pct">82%</span>
+      </div>
+      <div class="skill-card" data-cat="tools">
+        <div class="skill-icon">🔬</div>
+        <h3>Testing & Debugging</h3>
+        <p>Oscilloscopes, logic analyzers, unit testing, profiling</p>
+        <div class="skill-bar"><div class="skill-fill" data-pct="85"></div></div>
+        <span class="skill-pct">85%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="section">
+    <div class="section-header reveal-up">
+      <span class="section-tag">03 — Projects</span>
+      <h2 class="section-title">What I've <em>Built</em></h2>
+    </div>
+
+    <div class="empty-placeholder reveal-up">
+      <div class="empty-icon">🚧</div>
+      <p class="empty-title">Projects coming soon</p>
+      <p class="empty-sub">// This space is reserved — check back as I build things worth sharing.</p>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATES ===================== -->
+  <section id="certificates" class="section">
+    <div class="section-header reveal-up">
+      <span class="section-tag">04 — Certificates</span>
+      <h2 class="section-title">My <em>Credentials</em></h2>
+    </div>
+
+    <div class="empty-placeholder reveal-up">
+      <div class="empty-icon">🎓</div>
+      <p class="empty-title">Certificates coming soon</p>
+      <p class="empty-sub">// Working on earning credentials worth displaying here.</p>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <span class="logo-bracket">&lt;</span>CJM<span class="logo-bracket">/&gt;</span>
+      </div>
+      <p class="footer-tagline">A CpE student turning curiosity into code.</p>
+      <div class="footer-socials">
+        <a href="#" class="social-link" title="GitHub">GH</a>
+        <a href="#" class="social-link" title="LinkedIn">LI</a>
+        <a href="#" class="social-link" title="Email">✉</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Carla Joy Moje. All rights reserved.</span>
+      <span>Designed & Built with ♥</span>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
